@@ -11,8 +11,8 @@ Este projeto é uma aplicação FastAPI que fornece uma API RESTful para gerenci
    cd CarsAPI
    ```
 
-2. Criar o arquivo `.env`
-Crie um arquivo `.env` na raiz do projeto e adicione as seguintes variáveis de ambiente:
+2. **Criar o arquivo `.env`
+   Crie um arquivo `.env` na raiz do projeto e adicione as seguintes variáveis de ambiente:
 
 ```bash
 POSTGRES_USER=seu_usuario
