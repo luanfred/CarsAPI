@@ -14,12 +14,12 @@ Este projeto é uma aplicação FastAPI que fornece uma API RESTful para gerenci
 2. **Criar o arquivo `.env`
    Crie um arquivo `.env` na raiz do projeto e adicione as seguintes variáveis de ambiente:
 
-```bash
-POSTGRES_USER=seu_usuario
-POSTGRES_PASSWORD=sua_senha
-POSTGRES_DB=cars_db
-DATABASE_URL=postgresql://seu_usuario:sua_senha@db:5432/cars_db
-```
+   ```bash
+   POSTGRES_USER=seu_usuario
+   POSTGRES_PASSWORD=sua_senha
+   POSTGRES_DB=cars_db
+   DATABASE_URL=postgresql://seu_usuario:sua_senha@db:5432/cars_db
+   ```
 
 4. **Construa e execute a aplicação com Docker Compose:**
    ```
