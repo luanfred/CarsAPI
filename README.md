@@ -1,5 +1,3 @@
-### README para a API de Carros com FastAPI
-
 # API de Carros com FastAPI
 
 Este projeto é uma **API RESTful** simples e eficiente para gerenciar uma coleção de carros, construída com **FastAPI**. A aplicação usa **PostgreSQL** como banco de dados e é totalmente containerizada com **Docker Compose**, simplificando a configuração e a execução.
