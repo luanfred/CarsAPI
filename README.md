@@ -11,12 +11,22 @@ Este projeto é uma aplicação FastAPI que fornece uma API RESTful para gerenci
    cd CarsAPI
    ```
 
-2. **Construa e execute a aplicação com Docker Compose:**
+2. Criar o arquivo `.env`
+Crie um arquivo `.env` na raiz do projeto e adicione as seguintes variáveis de ambiente:
+
+```bash
+POSTGRES_USER=seu_usuario
+POSTGRES_PASSWORD=sua_senha
+POSTGRES_DB=cars_db
+DATABASE_URL=postgresql://seu_usuario:sua_senha@db:5432/cars_db
+```
+
+4. **Construa e execute a aplicação com Docker Compose:**
    ```
    docker compose up --build
    ```
 
-3. **Acesse a API:**
+5. **Acesse a API:**
    A API estará disponível em http://localhost:8000. Você pode acessar a documentação interativa da API através do Swagger em http://localhost:8000/docs ou do ReDoc em http://localhost:8000/redoc. 
 
    Você também pode utilizar ferramentas como Postman ou curl para interagir com os endpoints.
