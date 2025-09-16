@@ -7,8 +7,8 @@ Este projeto é uma aplicação FastAPI que fornece uma API RESTful para gerenci
 
 1. **Clone o repositório:**
    ```
-   git clone <url-do-repositorio>
-   cd fastapi-cars-app
+   git clone https://github.com/luanfred/CarsAPI.git
+   cd CarsAPI
    ```
 
 2. **Construa e execute a aplicação com Docker Compose:**
